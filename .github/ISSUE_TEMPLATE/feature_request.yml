@@ -1,0 +1,15 @@
+name: "🙋‍♂️ Feature Request"
+description: "Request the addition of a new feature to the package."
+labels: ["feature", "request"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for helping us enhance the package! Your input is greatly appreciated in making it even better.
+  - type: input
+    attributes:
+      label: Feature Request
+      description: Describe the feature you would like to request.
+      placeholder: Provide details about the feature you want.
+      value: "I want to request a feature that..."
+    validations:
+      required: true

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "base-npm-package": ["../dist/index"]
+    },
+    "target": "es5",
+    "module": "CommonJS",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "./dist"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

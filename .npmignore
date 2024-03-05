@@ -1,0 +1,6 @@
+/example/
+.eslintrc.js
+.prettierrc
+.npmrc
+.github/
+/test/

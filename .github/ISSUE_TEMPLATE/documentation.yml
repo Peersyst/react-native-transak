@@ -1,0 +1,26 @@
+name: "📃 Documentation Bug"
+description: "Report something that is incorrect or missing from the documentation."
+title: "[docs] "
+labels: ["docs"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for helping us improve the documentation! Your contribution is valuable in making the package even better.
+  - type: textarea
+    attributes:
+      label: Summary
+      description: Clearly describe what is incorrect or missing from the documentation.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Link to the Related Documentation Page
+      description: Provide a link to the page in the documentation that needs attention.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the Issue
+      description: Provide a detailed description of the issue you encountered.
+    validations:
+      required: true

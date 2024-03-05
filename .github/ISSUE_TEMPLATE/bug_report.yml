@@ -1,0 +1,15 @@
+name: "🐞 Bug Report"
+description: "Report a reproducible bug in the base-npm-package"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for reporting a bug! Your feedback helps us improve the base-npm-package. Please complete the form below with as much detail as possible.
+  - type: input
+    attributes:
+      label: Bug Description
+      description: Describe the bug and what you expected to happen.
+      placeholder: Explain the issue you encountered.
+      value: "A bug occurred!"
+    validations:
+      required: true

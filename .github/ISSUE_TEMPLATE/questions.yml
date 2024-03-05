@@ -1,0 +1,15 @@
+name: "❓ Questions and Discussions"
+description: "Ask a question about the package or initiate a discussion on certain aspects."
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for initiating this discussion! Your engagement helps foster a better understanding of the package.
+  - type: input
+    attributes:
+      label: Question or Discussion
+      description: Describe your question or the discussion you want to start.
+      placeholder: Introduce your question or discussion topic.
+      value: "I have a question about..."
+    validations:
+      required: true
