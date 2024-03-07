@@ -1,10 +1,10 @@
 name: "🐞 Bug Report"
-description: "Report a reproducible bug in the base-npm-package"
+description: "Report a reproducible bug in the @peersyst/react-native-transak"
 labels: ["bug"]
 body:
   - type: markdown
     attributes:
-      value: Thank you for reporting a bug! Your feedback helps us improve the base-npm-package. Please complete the form below with as much detail as possible.
+      value: Thank you for reporting a bug! Your feedback helps us improve the @peersyst/react-native-transak. Please complete the form below with as much detail as possible.
   - type: input
     attributes:
       label: Bug Description

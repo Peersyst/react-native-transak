@@ -1,16 +1,10 @@
 {
+  "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "strict": true,
+    "baseUrl": "./src",
     "paths": {
-      "base-npm-package": ["../dist/index"]
-    },
-    "target": "es5",
-    "module": "CommonJS",
-    "declaration": true,
-    "removeComments": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "outDir": "./dist"
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+      "@peersyst/react-native-transak": ["../../src"]
+    }
+  }
 }
