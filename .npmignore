@@ -4,3 +4,4 @@
 .npmrc
 .github/
 /test/
+Dockerfile
