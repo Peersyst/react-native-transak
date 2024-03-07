@@ -1,9 +1,9 @@
 {
   "name": "@peersyst/react-native-transak",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.4",
   "description": "A React Native package that facilitates integration with Transak, allowing users to buy and sell cryptocurrencies within your app.",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "src/index.tsx",
+  "types": "src/index.tsx",
   "scripts": {
     "prepublish": "yarn build",
     "prebuild": "yarn clean && yarn lint",
