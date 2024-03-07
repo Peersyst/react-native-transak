@@ -14,11 +14,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "downlevelIteration": true,
-    "noEmit": true,
+    "declaration": true,
     "jsx": "react-native",
     "baseUrl": "src",
     "experimentalDecorators": true,
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
+    "outDir": "./dist/lib",
+    "sourceMap": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
